@@ -6,3 +6,27 @@ p {
 .font.comfortaa {
   font-family: 'Comfortaa', cursive;
 }
+/* Corregir Main Image */
+.main-img {
+  width: auto;
+  height: auto;
+  background: url('/images/Hero_home-02.png') no-repeat center center;
+  background-size: 100% 250px
+}
+
+@media screen and (max-width: 768px) {
+  .main-img {
+    width: 100vw;
+    height: 100vw;
+    background-size: 100% 250px
+  }
+}
+
+.icon{
+  width:200px;
+  height:200px;
+}
+
+.btn.btn-outline-secondary{
+  border-radius: 25px;
+}
