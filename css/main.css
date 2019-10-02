@@ -1,4 +1,7 @@
-
+body{
+  margin:0;
+  padding:0:
+}
 p {
   font-family: 'Open Sans', sans-serif;
 }
@@ -6,27 +9,82 @@ p {
 .font.comfortaa {
   font-family: 'Comfortaa', cursive;
 }
-/* Corregir Main Image */
+
+.navbar-bar.ml-auto{
+  margin-left: auto;
+}
+
+.menu-hover {
+    text-decoration: none;
+    background-image: linear-gradient(#ed5789, #ed5789);
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: 0% 5px;
+    transition: background-size .3s;
+}
+ 
+.menu-hover:hover, .menu-hover:focus {
+    background-size: 100% 5px;
+}
+
+#image-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-img {
-  width: auto;
-  height: auto;
-  background: url('/images/Hero_home-02.png') no-repeat center center;
-  background-size: 100% 250px
+  width: 500px;
+  height: 400px;
 }
 
-@media screen and (max-width: 768px) {
-  .main-img {
-    width: 100vw;
-    height: 100vw;
-    background-size: 100% 250px
-  }
+.icon-div{
+  text-align: center
 }
-
 .icon{
   width:200px;
   height:200px;
 }
 
-.btn.btn-outline-secondary{
-  border-radius: 25px;
+.btn-shadow{
+    position: relative;
+    z-index: -2px;
+    top: 5px;
+    width: 150px;
+    height: 40px;
+    border: #ed5789 solid 1px;
+    background-color: #ed5789;
+    border-radius:50px;
+    }
+
+.btn-shadow-outline{
+    position: relative;
+    z-index: -1px;
+    top: 5px;
+    width: 150px;
+    height: 40px;
+    top: -28px;
+    right: -6px;
+    border: black solid 2px;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.boton{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 15px;
+    bottom: 76px;
+    padding: 10px;
+}
+
+footer {
+  color: white;
+  background-color: #ed5789
 }

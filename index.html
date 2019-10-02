@@ -16,24 +16,26 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <img src="./images/full-logo.svg" width="90" height="30" class="d-inline-block align-top" alt="">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item menu-hover">
           <a class="nav-link" href="#">Students <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item menu-hover">
           <a class="nav-link" href="#">Teachers</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item  menu-hover">
           <a class="nav-link" href="#">Institutions</a>
         </li>
       </ul>
+       <form class="form-inline">
+    <button class="btn btn-outline" type="button">Iniciar Sesión</button>
+  </form>
     </div>
-    <button class="btn btn-outline-dark my-2 my-sm-0 d-inline-block" type="submit">Login</button>
   </nav>
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-7 order-2 order-lg-1">
+      <div class="col-12 col-lg-6 order-2 order-lg-1">
         <h1 class="font comfortaa">APRENDER A APRENDER</h1>
         <p>
           Lleva tu aprendizaje al espacio y mas allá.
@@ -41,10 +43,15 @@
           quaerat, voluptatem nobis corrupti, consequuntur hic explicabo nisi ipsam exercitationem earum impedit quod
           blanditiis molestias!
         </p>
-        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <div class="div-boton">
+  <div class="btn-shadow"></div>
+  <div class="btn-shadow-outline"></div>
+          <button class="boton">Registrate Ahora</button>
+        </div>
       </div>
-      <div class="col-12 col-lg-5 order-1 order-lg-2">
-        <div class="main-img">
+      <div class="col-12 col-lg-6 order-1 order-lg-2">
+        <div id='image-container'>
+        <img src="./images/Hero_home-02.png" class="main-img" alt="">
         </div>
       </div>
     </div>
@@ -52,23 +59,20 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-4">
-        <img src="./images/Iconos_Mesa de trabajo 1 copia 2.png" class="icon" alt="">
-        <h3 class="font comfortaa">Student</h3>
+      <div class="col-12 col-lg-4 icon-div">
+        <img src="./images/cuaderno.png" class="icon" alt="">
+        <h3 class="font comfortaa">Organiza tus tareas</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, quod.</p>
-        <button type="button" class="btn btn-outline-secondary">Secondary</button>
       </div>
-      <div class="col-12 col-lg-4">
-        <img src="./images/Iconos_Mesa de trabajo 1 copia.png" class="icon" alt="">
-        <h3 class="font comfortaa">Teacher</h3>
+      <div class="col-12 col-lg-4 icon-div">
+        <img src="./images/birrete.png" class="icon" alt="">
+        <h3 class="font comfortaa">Conecta con tus compañeros</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, quod.</p>
-        <button type="button" class="btn btn-outline-secondary">Secondary</button>
       </div>
-      <div class="col-12 col-lg-4">
-        <img src="./images/Iconos_Mesa de trabajo 1.png" class="icon" alt="">
-        <h3 class="font comfortaa">Institution</h3>
+      <div class="col-12 col-lg-4 icon-div">
+        <img src="./images/trofeo.png" class="icon" alt="">
+        <h3 class="font comfortaa">Alcanza tus metas</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, quod.</p>
-        <button type="button" class="btn btn-outline-secondary">Secondary</button>
       </div>
     </div>
   </div>
@@ -83,18 +87,17 @@
           ad rem porro maiores, accusantium ducimus sit. Quaerat ducimus aliquam quisquam facere tempore explicabo hic
           cumque quod, adipisci at! Minima excepturi provident porro, eveniet obcaecati cumque incidunt voluptates rem
           inventore totam, earum, accusantium itaque veritatis.</p>
-        <h3>Boost Your Learning</h3>
       </div>
     </div>
   </div>
-
+  </div>
+  </div>
   <footer>
-    <div class="footer-copyright text-center">© 2019 Un Proyecto de Kodemia:
-      <p>Class Up - Boost Your Learning!</p>
-    </div>
+    <h3 class="text-center">Boost Your Learning</h3>
+    <p class="text-center mb-0">© 2019 Un Proyecto de Kodemia:</p>
+    <p class="text-center mb-0">Class Up - Boost Your Learning!</p>
+    
   </footer>
-  </div>
-  </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
