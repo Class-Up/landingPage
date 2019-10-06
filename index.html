@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <img src="./images/full-logo.svg" width="90" height="30" class="d-inline-block align-top" alt="">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
@@ -21,21 +21,20 @@
           <a class="nav-link" href="#">Students <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item menu-hover">
-          <a class="nav-link" href="#">Teachers</a>
+          <a class="nav-link" id="info-teachers" href="#">Teachers</a>
         </li>
         <li class="nav-item  menu-hover">
-          <a class="nav-link" href="#">Institutions</a>
-        </li>
+          <a class="nav-link" href="#">Institutions </a> </li>
       </ul>
-       <form class="form-inline">
-    <button class="btn btn-outline" type="button">Iniciar Sesión</button>
-  </form>
+      <form class="form-inline">
+        <button class="btn btn-outline" type="button">Iniciar Sesión</button>
+      </form>
     </div>
   </nav>
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-6 order-2 order-lg-1">
+      <div class="col-12 col-lg-6 order-2 order-lg-1 main-text">
         <h1 class="font comfortaa">APRENDER A APRENDER</h1>
         <p>
           Lleva tu aprendizaje al espacio y mas allá.
@@ -43,33 +42,33 @@
           quaerat, voluptatem nobis corrupti, consequuntur hic explicabo nisi ipsam exercitationem earum impedit quod
           blanditiis molestias!
         </p>
-        <div class="div-boton">
-  <div class="btn-shadow"></div>
-  <div class="btn-shadow-outline"></div>
-          <button class="boton">Registrate Ahora</button>
+        <div class="div-button">
+          <div class="button-shadow"></div>
+          <div class="button-shadow-outline"></div>
+          <button class="button">Registrate Ahora</button>
         </div>
       </div>
       <div class="col-12 col-lg-6 order-1 order-lg-2">
         <div id='image-container'>
-        <img src="./images/Hero_home-02.png" class="main-img" alt="">
+          <img src="./images/pluto-upgrade-02.png" class="main-img" alt="">
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container info-students">
     <div class="row">
-      <div class="col-12 col-lg-4 icon-div">
+      <div class="col-12 col-lg-4" id="icon-div-try">
         <img src="./images/cuaderno.png" class="icon" alt="">
         <h3 class="font comfortaa">Organiza tus tareas</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, quod.</p>
       </div>
-      <div class="col-12 col-lg-4 icon-div">
+      <div class="col-12 col-lg-4">
         <img src="./images/birrete.png" class="icon" alt="">
         <h3 class="font comfortaa">Conecta con tus compañeros</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, quod.</p>
       </div>
-      <div class="col-12 col-lg-4 icon-div">
+      <div class="col-12 col-lg-4">
         <img src="./images/trofeo.png" class="icon" alt="">
         <h3 class="font comfortaa">Alcanza tus metas</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, quod.</p>
@@ -82,7 +81,8 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sapiente quae, assumenda dolorum nam
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sapiente quae, assumenda
+          dolorum nam
           architecto
           ad rem porro maiores, accusantium ducimus sit. Quaerat ducimus aliquam quisquam facere tempore explicabo hic
           cumque quod, adipisci at! Minima excepturi provident porro, eveniet obcaecati cumque incidunt voluptates rem
@@ -93,12 +93,15 @@
   </div>
   </div>
   <footer>
-    <h3 class="text-center">Boost Your Learning</h3>
+    <h3 class="text-center font comfortaa">Al Espacio Y Mas Allá</h3>
     <p class="text-center mb-0">© 2019 Un Proyecto de Kodemia:</p>
     <p class="text-center mb-0">Class Up - Boost Your Learning!</p>
-    
+
   </footer>
 
+  <script src="./js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
