@@ -6,152 +6,260 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Class Up</title>
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <img src="./images/full-logo.svg" width="120" height="40" class="d-inline-block align-top" alt="">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item menu-hover">
-          <a class="nav-link" href="#">Students <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item menu-hover">
-          <a class="nav-link" id="info-teachers" href="#">Teachers</a>
-        </li>
-        <li class="nav-item  menu-hover">
-          <a class="nav-link" href="#">Institutions </a> </li>
-      </ul>
-      <form class="form-inline">
-        <button class="btn btn-outline" type="button">Iniciar Sesión</button>
-      </form>
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="http://classup.space">
+        <img src="http://cdn.classup.space/brand/logo-banner.svg" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item menu-hover">
+          Estudiantes
+        </a>
+        <a class="navbar-item menu-hover">
+          Profesores
+        </a>
+        <a class="navbar-item menu-hover">
+          Instituciones
+        </a>
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary">
+              <strong>Registrarse</strong>
+            </a>
+            <a class="button is-light">
+              Iniciar Sesión
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </nav>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-6 order-2 order-lg-1 main-text">
-        <h1 class="font comfortaa">APRENDER A APRENDER</h1>
-        <p>
-          Lleva tu aprendizaje al espacio y mas allá. <br> 
-          Class Up es una forma diferente de aprender a aprender, 
-          usando inteligencia artificial analizamos tu personalidad y 
-          te recomendamos las mejores formas de estudiar, administrar tu tiempo para que aprendas mas y mejor.  
-        </p>
-        <div class="div-button">
-          <div class="button-shadow"></div>
-          <div class="button-shadow-outline"></div>
-          <button class="button">Registrate Ahora</button>
+  <section class="hero is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-nine
+          is-main-text">
+            <h1 class="is-comfortaa is-size-2 is-size-4-mobile">APRENDER A APRENDER</h1>
+            <p>
+              Lleva tu aprendizaje al espacio y mas allá. <br>
+              Class Up es una forma diferente de aprender a aprender,
+              usando inteligencia artificial analizamos tu personalidad y
+              te recomendamos las mejores formas de estudiar, administrar tu tiempo para que aprendas mas y mejor.
+            </p>
+            <br>
+            <div class="has-text-centered">
+              <button class="button is-primary">Registrate Ahora</button>
+            </div>
+          </div>
+          <div class="column is-three">
+            <img src="./images/pluto-upgrade-02.png" alt="">
+          </div>
         </div>
       </div>
-      <div class="col-12 col-lg-6 order-1 order-lg-2">
-        <div id='image-container'>
-          <img src="./images/pluto-upgrade-02.png" class="main-img" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 
-  <div class="container info students">
-    <div class="row">
-      <div class="card-info col-12 col-lg-4">
-        <img src="./images/cuaderno.png" class="icon" alt="">
-        <h3 class="font comfortaa">Gestiona tus tiempos</h3>
-        <p>Recibe notificaciones cuando tu profesor agregue tareas a la agenda. Manten todas tus tareas ordenadas en un sólo lugar.</p>
+  <!-- Student Section -->
+  <section class="hero is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="card is-shadowless column is-one-third">
+            <div class="card-image is-flex profile-picture">
+              <figure class="image is-128x128">
+                <img src="./images/cuaderno.png" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h1 class="is-comfortaa">Gestiona tus tiempos</h1>
+                <p>
+                  Recibe notificaciones cuando tu profesor agregue tareas a la agenda. Manten todas tus tareas ordenadas
+                  en un sólo lugar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card is-shadowless column is-one-third">
+            <div class="card-image is-flex profile-picture">
+              <figure class="image is-128x128">
+                <img src="./images/birrete.png" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h1 class="is-comfortaa">Aprende a aprender</h1>
+                <p>
+                  Te ayudamos a determinar el estilo de aprendizaje que mejor se adapta a ti para ayudarte a desarrollar
+                  estrategias de estudio.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card is-shadowless column is-one-third">
+            <div class="card-image is-flex profile-picture">
+              <figure class="image is-128x128">
+                <img src="./images/birrete.png" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h1 class="is-comfortaa">Alcanza tus metas</h1>
+                <p>
+                  Reconocemos cada uno de tus logros y recompensamos tu esfuerzo. Gana medallas que seran visibles en tu
+                  perfil
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card-info col-12 col-lg-4">
-        <img src="./images/birrete.png" class="icon" alt="">
-        <h3 class="font comfortaa">Aprende a aprender</h3>
-        <p>Te ayudamos a determinar el estilo de aprendizaje que mejor se adapta a ti para ayudarte a desarrollar estrategias de estudio.</p>
-      </div>
-      <div class="card-info col-12 col-lg-4">
-        <img src="./images/trofeo.png" class="icon" alt="">
-        <h3 class="font comfortaa">Alcanza tus metas</h3>
-        <p>Reconocemos cada uno de tus logros y recompensamos tu esfuerzo. Gana medallas que seran visibles en tu perfil</p>
-      </div>
-    </div>
-  </div>
-  <div class="container info teachers">
-    <div class="row">
-      <div class="card-info col-12 col-lg-4">
-        <img src="http://cdn.classup.space/assets/icons/team.png" class="icon" alt="">
-        <h3 class="font comfortaa">Conoce mejor a tus grupos</h3>
-        <p>Obtén estadisticas sobre tus grupos que te permitiran diseñar un curso que se adecue de la mejor manera a sus caracteristicas.</p>
-      </div>
-      <div class="card-info col-12 col-lg-4">
-        <img src="http://cdn.classup.space/assets/icons/team.png" class="icon" alt="">
-        <h3 class="font comfortaa">Gestiona las tareas de tus grupos</h3>
-        <p>Agrega tareas a las agendas de tus estudiantes y lleva un registro detallado de sus entregas y calificaciones.</p>
-      </div>
-      <div class="card-info col-12 col-lg-4">
-        <img src="./images/trofeo.png" class="icon" alt="">
-        <h3 class="font comfortaa">Comparte con tus alumnos</h3>
-        <p>Comparte material con tus alumnos en cualquier momento.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container info institutions">
-    <div class="row">
-      <div class="card-info col-12 col-lg-4">
-        <img src="./images/cuaderno.png" class="icon" alt="">
-        <h3 class="font comfortaa">Seguimiento a los estudiantes</h3>
-        <p>Recibe un reporte del rendimiento de cada uno de los alumnos así como notificaciones cuando el desempeño de un estudiante sufra cambios repentinos.</p>
-      </div>
-      <div class="card-info col-12 col-lg-4">
-        <img src="./images/birrete.png" class="icon" alt="">
-        <h3 class="font comfortaa">Supervisa el desempeño de los docentes</h3>
-        <p>Identifica a los profesores que mas hacen crecer el conocimiento y rendimiento de los estudiantes. Comparte los resultados de tu institución y demuestra tu prestigio</p>
-      </div>
-      <div class="card-info col-12 col-lg-4">
-        <img src="./images/trofeo.png" class="icon" alt="">
-        <h3 class="font comfortaa">Controla las inscripciones y la administracion</h3>
-        <p>Genera sistemas de inscripcion, identifica que materias necesitan mas grupos, en que momentos es ideal crear convocatorias</p>
-      </div>
-    </div>
-  </div>
+  </section>
+
   <hr>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sapiente quae, assumenda
-          dolorum nam
-          architecto
-          ad rem porro maiores, accusantium ducimus sit. Quaerat ducimus aliquam quisquam facere tempore explicabo hic
-          cumque quod, adipisci at! Minima excepturi provident porro, eveniet obcaecati cumque incidunt voluptates rem
-          inventore totam, earum, accusantium itaque veritatis.</p>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  <footer>
-    <h2 class="text-center font comfortaa">NOSOTROS SOMOS CLASS UP</h2>
-    <br>
-    <div class="container">
-      <div class="row">
-        <div class="card-info col-12 col-lg-4">
-         <img src="./images/carlos.jpeg" class ="photo" alt="">
-         <h4 class="text-center font comfortaa">Carlos Ojeda Avendaño</h4>
-        </div>
-        <div class="card-info col-12 col-lg-4">
-          <img src="./images/rurick.jpeg" class ="photo" alt="">
-          <h4 class="text-center font comfortaa">Rurick Maqueo Poisot</h4>
-        </div>
-        <div class="card-info col-12 col-lg-4">
-          <img src="./images/brenda.jpg" class ="photo" alt="">
-          <h4 class="text-center font comfortaa">Brenda Gonzalez Quesada</h4>
+  <!-- Teacher Section-->
+  <section class="hero is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container teachers">
+        <div class="columns">
+          <div class="card is-shadowless column is-one-third">
+            <img src="http://cdn.classup.space/assets/icons/team.png" alt="">
+            <h3 class="is-comfortaa">Conoce mejor a tus grupos</h3>
+            <p>Obtén estadisticas sobre tus grupos que te permitiran diseñar un curso que se adecue de la mejor manera a
+              sus
+              caracteristicas.</p>
+          </div>
+          <div class="card is-shadowless column is-one-third">
+            <img src="http://cdn.classup.space/assets/icons/team.png" alt="">
+            <h3 class="is-comfortaa">Gestiona las tareas de tus grupos</h3>
+            <p>Agrega tareas a las agendas de tus estudiantes y lleva un registro detallado de sus entregas y
+              calificaciones.</p>
+          </div>
+          <div class="card is-shadowless column is-one-third">
+            <img src="./images/trofeo.png" alt="">
+            <h3 class="is-comfortaa">Comparte con tus alumnos</h3>
+            <p>Comparte material con tus alumnos en cualquier momento.</p>
+          </div>
         </div>
       </div>
     </div>
-    <br>
-    <h4 class="text-center font comfortaa">Al Espacio Y Mas Allá</h4>
-    <p class="text-center mb-0">© 2019 Un Proyecto de Kodemia 4ta Generación:</p>
-    <p class="text-center mb-0">Class Up - Boost Your Learning!</p>
+  </section>
+
+  <hr>
+
+  <!-- Section Institutions -->
+  <section class="hero is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container institutions">
+        <div class="columns">
+          <div class="card is-shadowless column is-one-third">
+            <img src="./images/cuaderno.png" alt="">
+            <h3 class="is-comfortaa">Seguimiento a los estudiantes</h3>
+            <p>Recibe un reporte del rendimiento de cada uno de los alumnos así como notificaciones cuando el desempeño
+              de
+              un estudiante sufra cambios repentinos.</p>
+          </div>
+          <div class="card is-shadowless column is-one-third">
+            <img src="./images/birrete.png" alt="">
+            <h3 class="is-comfortaa">Supervisa el desempeño de los docentes</h3>
+            <p>Identifica a los profesores que mas hacen crecer el conocimiento y rendimiento de los estudiantes.
+              Comparte
+              los resultados de tu institución y demuestra tu prestigio</p>
+          </div>
+          <div class="card is-shadowless column is-one-third">
+            <img src="./images/trofeo.png" alt="">
+            <h3 class="is-comfortaa">Controla las inscripciones y la administracion</h3>
+            <p>Genera sistemas de inscripcion, identifica que materias necesitan mas grupos, en que momentos es ideal
+              crear
+              convocatorias</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero has-background-black is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column has-text-centered">
+            <div class="card has-background-black is-shadowless">
+              <div class="card-image is-flex profile-picture">
+                <figure class="image is-128x128">
+                  <img src="./images/carlos.jpeg" class="is-rounded" alt="">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4 class="is-comfortaa has-text-white">Carlos Ojeda Avendaño</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column has-text-centered">
+            <div class="card has-background-black is-shadowless">
+              <div class="card-image is-flex profile-picture">
+                <figure class="image is-128x128">
+                  <img src="./images/rurick.jpeg" class="is-rounded" alt="">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4 class="is-comfortaa has-text-white">Rurick Maqueo Poisot</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card has-background-black is-shadowless">
+              <div class="card-image is-flex profile-picture">
+                <figure class="image is-128x128">
+
+                  <img src="./images/brenda.jpg" class="is-rounded" alt="">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h4 class="is-comfortaa has-text-white">Brenda Gonzalez Quesada</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>
+      <h4 class="is-comfortaa has-text-centered">Al Espacio Y Mas Allá</h4>
+      <div class="has-text-centered">
+        <p class="has-text-centered">
+          © 2019 Un Proyecto de <b>Kodemia 4ta Generación</b>:
+        </p>
+        <p class="has-text-centered">Class Up - Boost Your Learning!</p>
+      </div>
+    </div>
 
   </footer>
 
