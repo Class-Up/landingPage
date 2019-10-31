@@ -3,6 +3,7 @@
 
 $pink: #fe3888;
 $primary: $pink;
+$link-hover: $pink;
 
 // $family-sans-serif: "Open Sans", sans-serif;
 // $family-cursive: "Comfortaa", cursive;
@@ -38,7 +39,7 @@ $primary: $pink;
   }
 }
 
-@import "../bulma.sass";
+// @import "../bulma.sass";
 
 .footer {
   padding-bottom: 48px;

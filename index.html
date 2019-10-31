@@ -17,12 +17,12 @@
         <img src="http://cdn.classup.space/brand/logo-banner.svg" width="112" height="28">
       </a>
 
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+      <!-- <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
         data-target="navbarBasicExample">
+        <span aria-hidden="true">fghjklñ</span>
+        <span aria-hidden="true">fghjk</span>
         <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
+      </a> -->
     </div>
 
     <div id="navbarBasicExample" class="navbar-menu">
@@ -30,21 +30,21 @@
       </div>
 
       <div class="navbar-end">
-        <a class="navbar-item menu-hover">
+        <a class="navbar-item menu-hover" href="#info-students">
           Estudiantes
         </a>
-        <a class="navbar-item menu-hover">
+        <a class="navbar-item menu-hover" href="#info-teachers">
           Profesores
         </a>
-        <a class="navbar-item menu-hover">
+        <a class="navbar-item menu-hover" href="#info-institutions">
           Instituciones
         </a>
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-primary">
+            <a href="http://app.classup.space/signup/first" class="button is-primary is-rounded">
               <strong>Registrarse</strong>
             </a>
-            <a class="button is-light">
+            <a href="http://app.classup.space/login" class="button is-light is-rounded">
               Iniciar Sesión
             </a>
           </div>
@@ -58,17 +58,18 @@
       <div class="container">
         <div class="columns">
           <div class="column is-nine
-          is-main-text">
-            <h1 class="is-comfortaa is-size-2 is-size-3-mobile">APRENDER A APRENDER</h1>
-            <p>
+          is-main-text has-text-centered-mobile">
+            <h1 class="is-comfortaa is-size-1 is-size-3-mobile">APRENDER A APRENDER</h1>
+            <p class="is-comfortaa is-size-4">
               Lleva tu aprendizaje al espacio y mas allá. <br>
               Class Up es una forma diferente de aprender a aprender,
               usando inteligencia artificial analizamos tu personalidad y
-              te recomendamos las mejores formas de estudiar, administrar tu tiempo para que aprendas mas y mejor.
+              te recomendamos las mejores formas de estudiar y administrar tu tiempo para que aprendas mas y mejor.
             </p>
             <br>
             <div class="has-text-centered">
-              <button class="button is-primary">Registrate Ahora</button>
+              <a href="http://app.classup.space/signup/first" class="button is-large is-primary is-rounded">Registrate
+                Ahora</a>
             </div>
           </div>
           <div class="column is-three">
@@ -79,7 +80,7 @@
   </section>
 
   <!-- Student Section -->
-  <section class="hero is-fullheight-with-navbar">
+  <section class="hero is-fullheight-with-navbar" id="info-students">
     <div class="hero-body">
       <div class="container">
         <div class="columns">
@@ -92,7 +93,7 @@
             <div class="card-content">
               <div class="content">
                 <h1 class="is-comfortaa has-text-centered">Gestiona tus tiempos</h1>
-                <p class="has-text-justified">
+                <p class="has-text-justified is-size-5">
                   Recibe notificaciones cuando tu profesor agregue tareas a la agenda. Manten todas tus tareas ordenadas
                   en un sólo lugar.
                 </p>
@@ -108,7 +109,7 @@
             <div class="card-content">
               <div class="content">
                 <h1 class="is-comfortaa has-text-centered">Aprende a aprender</h1>
-                <p class="has-text-justified">
+                <p class="has-text-justified is-size-5">
                   Te ayudamos a determinar el estilo de aprendizaje que mejor se adapta a ti para ayudarte a desarrollar
                   estrategias de estudio.
                 </p>
@@ -124,7 +125,7 @@
             <div class="card-content">
               <div class="content">
                 <h1 class="is-comfortaa has-text-centered">Alcanza tus metas</h1>
-                <p class="has-text-justified">
+                <p class="has-text-justified is-size-5">
                   Reconocemos cada uno de tus logros y recompensamos tu esfuerzo. Gana medallas que seran visibles en tu
                   perfil
                 </p>
@@ -138,7 +139,7 @@
   <hr>
 
   <!-- Teacher Section-->
-  <section class="hero is-fullheight-with-navbar">
+  <section class="hero is-fullheight-with-navbar" id="info-teachers">
     <div class="hero-body">
       <div class="container teachers">
         <div class="columns">
@@ -151,7 +152,7 @@
             <div class="card-content">
               <div class="content">
                 <h1 class="is-comfortaa has-text-centered">Conoce mejor a tus alumnos</h1>
-                <p class="has-text-justified">
+                <p class="has-text-justified is-size-5">
                   Obtén estadísticas sobre tus grupos que te permitirán diseñar un curso que se adecue de la mejor
                   manera a
                   sus
@@ -160,28 +161,40 @@
               </div>
             </div>
           </div>
-          <div class="card is-shadowless column is-one-third">
 
+          <div class="card is-shadowless column is-one-third">
             <div class="card-image is-flex profile-picture">
               <figure class="image is-128x128">
-                <img src="http://cdn.classup.space/assets/icons/exposition.svg" alt="">
+                <img src="http://cdn.classup.space/assets/icons/notes-alt.svg" alt="">
               </figure>
             </div>
             <div class="card-content">
               <div class="content">
                 <h1 class="is-comfortaa has-text-centered">Gestiona a tus grupos</h1>
-                <p class="has-text-justified">
+                <p class="has-text-justified is-size-5">
                   Agrega tareas a las agendas de tus estudiantes y lleva un registro detallado de sus entregas y
                   calificaciones.
                 </p>
               </div>
             </div>
           </div>
+
           <div class="card is-shadowless column is-one-third">
-            <img src="./images/trofeo.png" alt="">
-            <h3 class="is-comfortaa">Comparte con tus alumnos</h3>
-            <p>Comparte material con tus alumnos en cualquier momento.</p>
+            <div class="card-image is-flex profile-picture">
+              <figure class="image is-128x128">
+                <img src="http://cdn.classup.space/assets/icons/books.svg" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h1 class="is-comfortaa has-text-centered">Mantén el contacto</h1>
+                <p class="has-text-justified is-size-5">
+                  Comparte material con tus alumnos en cualquier momento.
+                </p>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -190,31 +203,64 @@
   <hr>
 
   <!-- Section Institutions -->
-  <section class="hero is-fullheight-with-navbar">
+  <section class="hero is-fullheight-with-navbar" id="info-institutions">
     <div class="hero-body">
       <div class="container institutions">
         <div class="columns">
           <div class="card is-shadowless column is-one-third">
-            <img src="./images/cuaderno.png" alt="">
-            <h3 class="is-comfortaa">Seguimiento a los estudiantes</h3>
-            <p>Recibe un reporte del rendimiento de cada uno de los alumnos así como notificaciones cuando el desempeño
-              de
-              un estudiante sufra cambios repentinos.</p>
+            <div class="card-image is-flex profile-picture">
+              <figure class="image is-128x128">
+                <img src="http://cdn.classup.space/assets/icons/school.svg" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h1 class="is-comfortaa has-text-centered">Controla las inscripciones y la administracion</h1>
+                <p class="has-text-justified is-size-5">
+                  Genera sistemas de inscripcion, identifica que materias necesitan mas grupos, en que momentos es ideal
+                  crear
+                  convocatorias
+                </p>
+              </div>
+            </div>
           </div>
           <div class="card is-shadowless column is-one-third">
-            <img src="./images/birrete.png" alt="">
-            <h3 class="is-comfortaa">Supervisa el desempeño de los docentes</h3>
-            <p>Identifica a los profesores que mas hacen crecer el conocimiento y rendimiento de los estudiantes.
-              Comparte
-              los resultados de tu institución y demuestra tu prestigio</p>
+            <div class="card-image is-flex profile-picture">
+              <figure class="image is-128x128">
+                <img src="http://cdn.classup.space/assets/icons/magnifier.svg" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h1 class="is-comfortaa has-text-centered">Seguimiento a los estudiantes</h1>
+                <p class="has-text-justified is-size-5">
+                  Recibe un reporte del rendimiento de cada uno de los alumnos así como notificaciones cuando el
+                  desempeño
+                  de
+                  un estudiante sufra cambios repentinos.
+                </p>
+              </div>
+            </div>
           </div>
+
           <div class="card is-shadowless column is-one-third">
-            <img src="./images/trofeo.png" alt="">
-            <h3 class="is-comfortaa">Controla las inscripciones y la administracion</h3>
-            <p>Genera sistemas de inscripcion, identifica que materias necesitan mas grupos, en que momentos es ideal
-              crear
-              convocatorias</p>
+            <div class="card-image is-flex profile-picture">
+              <figure class="image is-128x128">
+                <img src="http://cdn.classup.space/assets/icons/books-apple.svg" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <h1 class="is-comfortaa has-text-centered">Supervisa el desempeño de los docentes</h1>
+                <p class="has-text-justified is-size-5">
+                  Identifica a los profesores que mas hacen crecer el conocimiento y rendimiento de los estudiantes.
+                  Comparte
+                  los resultados de tu institución y demuestra tu prestigio
+                </p>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -247,13 +293,12 @@
               </div>
               <div class="card-content">
                 <div class="content">
-                  <h4 class="is-comfortaa has-text-
-                  white">Rurick Maqueo Poisot</h4>
+                  <h4 class="is-comfortaa has-text-white">Rurick Maqueo Poisot</h4>
                 </div>
               </div>
             </div>
           </div>
-          <div class="column">
+          <div class="column has-text-centered">
             <div class="card has-background-black is-shadowless">
               <div class="card-image is-flex profile-picture">
                 <figure class="image is-128x128">
@@ -283,18 +328,9 @@
     </div>
   </footer>
 
-  <script src="./js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
